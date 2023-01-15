@@ -1,24 +1,35 @@
 {
-  "name": "nodejsf8",
-  "version": "1.0.0",
-  "description": "node toturial",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "keywords": [
-    "dungmai"
-  ],
-  "author": "dungmai ft f8",
-  "license": "ISC",
-  "dependencies": {
-    "eslint": "^8.31.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.20",
-    "prettier": "^2.8.2"
-  }
+    "name": "nodejsf8",
+    "version": "1.0.0",
+    "description": "node toturial",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "watch": "node-sass --watch ./resources/scss/app.scss -o ./public/css/"
+    },
+    "keywords": [
+        "dungmai"
+    ],
+    "author": "dungmai ft f8",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "express-handlebars": "^6.0.6",
+        "method-override": "^3.0.0",
+        "mongoose": "^6.8.3",
+        "mongoose-delete": "^0.5.4",
+        "mongoose-sequence": "^5.3.1",
+        "mongoose-slug-generator": "^1.0.4",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.20"
+    },
+    "devDependencies": {
+        "eslint": "^8.31.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^8.6.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "node-sass": "^8.0.0",
+        "prettier": "^2.8.2"
+    }
 }
